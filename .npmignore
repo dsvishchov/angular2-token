@@ -7,14 +7,14 @@ npm-debug.log
 #!*.d.ts
 
 # Testing
-config
-coverage
-karma.conf.js
+#config
+#coverage
+#karma.conf.js
 
 # Config Files
-.travis.yml
-.gitignore
-tsconfig.json
+#.travis.yml
+#.gitignore
+#tsconfig.json
 
 # Mac
 .DS_Store
