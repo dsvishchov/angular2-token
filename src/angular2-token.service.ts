@@ -482,6 +482,8 @@ export class Angular2TokenService implements CanActivate {
 
     // Try to get auth data from url parameters.
     private getAuthDataFromParams(): void {
+        console.log('getAuthDataFromParams');
+
         if(this.activatedRoute.queryParams) // Fix for Testing, needs to be removed later
             this.activatedRoute.queryParams.subscribe(queryParams => {
                 let authData: AuthData = {
